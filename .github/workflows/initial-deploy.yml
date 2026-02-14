@@ -50,8 +50,7 @@ jobs:
                 "project": {
                   "data": {
                     "type": "projects",
-                      "id": "${{ steps.lookup_project_id.outputs.project_id }}"
-                    }
+                    "id": "${{ steps.lookup_project_id.outputs.project_id }}"
                   }
                 }
               }
